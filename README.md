@@ -1,7 +1,7 @@
 # EggBot
 an egg painting robot inspired by many other Eggbots out there.
 
-the Eggbot is build on an wooden base with bought NEMA17 motors and motor mounts, a small servo for pen actuation and 3D printed parts. it is controlled using grbl (compiling works only with old arduino versions !), while the gcode is send over serial with baud rate 115200 using "Universal Gcode Sender" or "Printrun" or similiar programs. The gcode was generated in inkscape using the unicorn plugin (work only in old inkscape verion). In theory any other program can be used to generate the gcode.
+the Eggbot is build on an wooden base with NEMA17 motors and motor mounts, a small servo for pen actuation and 3D printed parts. it is controlled using grbl (https://github.com/grbl/grbl ;compiling works only with old arduino versions ! https://www.arduino.cc/en/Main/OldSoftwareReleases#previous), while the gcode is send over serial with baud rate 115200 using "Universal Gcode Sender" (https://winder.github.io/ugs_website/) or "Printrun" (https://www.pronterface.com/) or similiar programs. The gcode was generated in inkscape (https://inkscape.org/) using the unicorn plugin (https://github.com/martymcguire/inkscape-unicorn ;works only in old inkscape verion). In theory any other program can be used to generate the gcode.
 
 this repository includes all 3D files for mechanical parts and gcode for the easter bunny drawing as seen in the following video \
 [<img src="https://img.youtube.com/vi/t_Bkus4Qe7w/maxresdefault.jpg" width="20%">](https://youtu.be/t_Bkus4Qe7w)
